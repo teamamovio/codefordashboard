@@ -1,0 +1,160 @@
+* {
+	font-family: sans-serif;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.listing-block {
+	margin: 0 7px;
+	padding: 0;
+	text-align: left;
+}
+
+.norm-element {
+	margin-left: 3px;
+	border-bottom: 1px solid #d0d2d3;
+	padding-top: 3px;
+}
+.norm-element:last-child {
+	border: 0;
+}
+.norm-element, .norm-element a {
+	color: #231f20;
+}
+
+.super-box {
+	position: relative;
+	height: 20px;
+	text-align: center;
+	display: inline-block;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 2px;
+	border: 1px solid #a6a8ab;
+	white-space: nowrap;
+	margin-top: 5px;
+	width: 130px;
+}
+.super-box .bg1 {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 50%;
+	right: 0;
+	background-color: #6d6e70;
+}
+.super-box .bg2 {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	bottom: 0;
+	right: 0;
+	background-color: #58595b;
+}
+.super-box .text {
+	position: relative;
+}
+.super-box .text, .super-box .text a {
+	color: #e6e7e8;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.side-column {
+	background-color: #f4f4f4;
+	border: 1px solid #d5d5d5;
+	padding: 10px;
+}
+
+.location {
+	border: 1px solid #d5d5d5;
+	background-color: #f4f4f4;
+	font-size: 25pt;
+	padding: 10px;
+	width: 650px;
+	margin: 10px 0px;
+}
+.location .one {
+	font-family: Georgia;
+}
+.location .two {
+	color: orange;
+	font-size: 0.7em;
+	font-family: 'courier new';
+}
+
+.footer, .footer a {
+	color: #a6a8ab;
+	font-size: 0.98em;
+}
+
+.bread-crumb {
+	border: 1px solid #d5d5d5;
+	background-color: #f4f4f4;
+	padding: 10px;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.location-block {
+	border-bottom: 1px solid gray;
+	margin: 0 10px 10px 10px;
+	padding-bottom: 10px;
+}
+.location-block .city {
+	font-size: 0.8em;
+	margin-bottom: 10px;
+}
+.location-block .church {
+	margin-left: 16px;
+	margin-bottom: 5px;
+	line-height: 0.9em;
+}
+.location-block .church, .location-block .church a {
+	font-size: 0.85em;
+}
+.state {
+	border-bottom: 1px solid gray;
+	font-size: 1.6em;
+	margin-bottom: 10px;
+}
+
+.field {
+	margin-bottom: 7px;
+}
+
+.list-item {
+	margin: 10px 50px;
+}
+.list-date {
+	text-align: center;
+	font-size: 16pt;
+}
+
+.events, .events tr, .events td {
+	border: 1px solid #cccccc;
+	border-collapse: collapse;
+	text-align: center;
+	color: #7c738a;
+}
+.events th {
+	background-color: #cccccc;
+	font-size: 0.9em;
+}
+.events td {
+	padding: 3px;
+}
+
+.tip {
+	font-size: 0.9em;
+	font-style: italic;
+	color: gray;
+}
+
